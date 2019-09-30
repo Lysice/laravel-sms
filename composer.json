@@ -1,0 +1,13 @@
+{
+    "name": "lysice/laravel-sms",
+    "description": "a alibaba sms service for laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lysice",
+            "email": "snowist@126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
