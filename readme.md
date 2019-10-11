@@ -8,6 +8,13 @@ laravel-sms 是专门为laravel开发的阿里云短信的发送包。由于官�
     composer require lysice/laravel-sms
 
 #### 配置
+配置文件中需要配置以下几个参数
+`access_secret_id`  
+`access_secret_key`
+`message_template_code //模板` 
+`message_template //模板文本`
+`sign_name // 短信模板签名` 
+
 #### 1.laravel
 config/app.php中注册服务提供器 添加下面一行
 ```
