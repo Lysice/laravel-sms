@@ -8,14 +8,25 @@ laravel-sms 是专门为laravel开发的阿里云短信的发送包。由于官�
     composer require lysice/laravel-sms
 
 #### 配置
-laravel5以下
+#### 1.laravel
 config/app.php中注册服务提供器 添加下面一行
-laravel5以上无需注册。
 ```
         \Lysice\Sms\SmsServiceProvider::class
 ```
+##### 执行命令发布配置文件
+```
+    php artisan vendor:publish --provider="Lysice/Sms/SmsServiceProvider"
+```
+#### 2.lumen
+##### bootstrap/app.php中配置服务:
+```
+    $app->register(\Lysice\Sms\SmsServiceProvider::class);
+```
+##### 拷贝laravel-sms/config下sms.php到项目中config目录。若无config目录则创建。
 #### 使用
 ```
-	$data = ['mobile' => '138xxxxxxxx', 'code' => 'code'];
-	Sms::send($data);
+    // 自定义参数,参数为你的消息模板中的变量。 如 我的模板中为code 则自定义参数为 $templateParam = ['code' => 1234];
+    $templateParam = ['code' => 1234];
+	$data = ['mobile' => '138xxxxxxxx', 'TemplateParam' => $templateParam];
+	SmsFacade::send($data);
 ```
