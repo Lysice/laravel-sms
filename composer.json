@@ -8,6 +8,12 @@
             "email": "snowist@126.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"Lysice\\Sms\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Lysice\\Sms\\": "src"}
+    },
     "minimum-stability": "stable",
     "require": {}
 }
