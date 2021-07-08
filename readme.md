@@ -1,4 +1,11 @@
 # 欢迎使用 laravel-sms 阿里云短信扩展包
+[![Latest Stable Version](https://poser.pugx.org/Lysice/laravel-sms/v/stable)](https://packagist.org/packages/Lysice/laravel-sms)
+[![Total Downloads](https://poser.pugx.org/Lysice/laravel-sms/downloads)](https://packagist.org/packages/Lysice/laravel-sms)
+[![Latest Unstable Version](https://poser.pugx.org/Lysice/laravel-sms/v/unstable)](https://packagist.org/packages/Lysice/laravel-sms)
+[![License](https://poser.pugx.org/Lysice/laravel-sms/license)](https://packagist.org/packages/Lysice/laravel-sms)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Lysice/laravel-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Lysice/laravel-sms/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Lysice/laravel-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Lysice/laravel-sms/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/Lysice/laravel-sms/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 laravel-sms 是专门为laravel开发的阿里云短信的发送包。由于官方扩展包包含了太多内容 所以写了这个扩展包。
 
